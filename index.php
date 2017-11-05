@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>educate - Free CSS Template by ZyPOP</title>
+<title>Search Your Destination</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
@@ -22,13 +22,12 @@
 	<div class="width">
     			<ul class="sf-menu dropdown">
         	<li class="selected"><a href="index.html">Home</a></li>
-            <li><a class="has_submenu" href="north.html">North Zone Colleges</a>
-            </li>
-	     <li><a href="west.html">West Zone Colleges</a></li>
-            <li><a class="has_submenu" href="#">East Zone Colleges</a>
-            </li>
-            <li><a href="#">South Zone Colleges</a></li>
-            <li><a class="has_submenu" href="C:\wamp64\www\portal\main\login.php">LOGIN</a>
+            <li><a class="has_submenu" href="north.html">North Zone Colleges</a></li>
+	    <li><a class="has_submenu" href="west.html">West Zone Colleges</a></li>
+            <li><a class="has_submenu" href="#">East Zone Colleges</a></li>
+            <li><a class="has_submenu" href="#">South Zone Colleges</a></li>
+	    <li><a class="has_submenu" href="signup.php">Sign Up</a></li>
+            <li><a class="has_submenu" href="login.php">LOGIN</a>
             </li>
         </ul>
 
@@ -39,13 +38,13 @@
     </nav>
 
     <div style="text-align: center;">
-        <form>
-            <input type="text" name="q">
+        <form action="a.php" method="POST">
+            <input type="text" name="search" >
             <input type="submit" name="submit" value="Search">
         </form>
     </div>
 
-    <h1><a href="/">Featured College</a></h1>
+    <h1>Featured College</h1>
 
 
     <div id="slides-container" class="slides-container width">

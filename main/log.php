@@ -1,3 +1,8 @@
+<html>
+<head>
+<title>login</title>
+</head>
+<body>
 <?php
 $name=$_POST['fname'];
 $uname=$_POST['uname'];
@@ -16,3 +21,5 @@ else
 	echo "please fill proper details";
 	}
 ?>
+</body>
+</html>

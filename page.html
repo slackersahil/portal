@@ -2,8 +2,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>college search</title>
+<title>educate - Free CSS Template by ZyPOP</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+educate, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
@@ -17,23 +27,20 @@
 <div id="container">
 
     <header>
-
+	
     		
         <nav>
 	<div class="width">
     			<ul class="sf-menu dropdown">
-            <li class="selected"><a href="index.html">Home</a></li>
-            <li><a class="has_submenu" href="examples.html">North Zone Colleges</a>
+        	<li><a href="index.html">Home</a></li>
+            <li class="selected"><a class="has_submenu" href="examples.html">Examples</a>
+            	<ul>
+                	<li><a href="noslides.html">Static Text Page</a></li>
+                    <li><a href="page.html">Static Frontpage</a></li>
+                    <li><a href="#">Another link</a></li>
+                </ul>
             </li>
-         <li><a href="three-column.html">West Zone Colleges</a></li>
-            <li><a class="has_submenu" href="#">East Zone Colleges</a>
-            </li>
-            <li><a href="#">South Zone Colleges</a></li>
-            <li><a class="has_submenu" href="C:\wamp64\www\portal\main\login.php">LOGIN</a>
-            </li>
-        </ul>
-            </li>
-	     <li class="selected"><a href="three-column.html">Three Column</a></li>
+	     <li><a href="three-column.html">Three Column</a></li>
             <li><a class="has_submenu" href="#">Products</a>
             	<ul>
                 	<li><a href="#">Product One</a></li>
@@ -50,7 +57,30 @@
 	
     </nav>
 
-    <h1><a href="/">West Zone College</a></h1>
+    <h1><a href="/">educate</a></h1>
+
+   <div class="slides-container width static-slide">
+        <div id="slides">
+            <div>
+                
+		   <img src="images/tree.jpg" alt="Placeholder image" />
+
+                    <h2>Tristique sem vitae metus ornare </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque venenatis sagittis enim. Maecenas ligula erat, egestas congue, varius nec, sagittis nec, purus. In neque.</p>
+                                  	
+			<p><a href="#" class="button button-slider">Lorem ipsum dolor</a>
+<a href="#" class="button button-reversed button-slider">Maecenas ligula!</a></p>
+                   
+                    
+
+            
+                
+            </div>
+            
+
+    </div>
+</div>
+
 
     </header>
 
@@ -59,64 +89,9 @@
 
     <div id="body" class="width">
 
-	<aside class="sidebar small-sidebar left-sidebar">
-	
-            <ul>	
-               <li>
-                    <h4>Categories</h4>
-                    <ul>
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="examples.html">Style Examples</a>
-				<ul>
-					<li><a href="page.html">Static slide page</a></li>
-					<li><a href="noslides.html">No slides page</a></li>
-				</ul>
-			</li>
-                        <li><a href="three-column.html">Three column layout example</a></li>
-                        <li><a href="#">Sed aliquam libero ut velit bibendum</a></li>
-                        <li><a href="#">Maecenas condimentum velit vitae</a></li>
-                    </ul>
-                </li>
-                
-                <li class="bg">
-                    <h4>About us</h4>
-                    <ul>
-                        <li class="text">
-                        	<p style="margin: 0;">Aenean nec massa a tortor auctor sodales sed a dolor. Duis vitae lorem sem. Proin at velit vel arcu pretium luctus. 					<a href="#" class="readmore">Read More &raquo;</a></p>
-                        </li>
-                    </ul>
-                </li>
-                
-                <li>
-                	<h4>Search site</h4>
-                    <ul>
-                    	<li class="text">
-                            <form method="get" class="searchform" action="#" >
-                                <p>
-                                    <input type="text" size="32" value="" name="s" class="s" />
-                                    
-                                </p>
-                            </form>	
-						</li>
-					</ul>
-                </li>
-                
-                <li>
-                    <h4>Helpful Links</h4>
-                    <ul>
-                        <li><a href="http://www.themeforest.net/?ref=spykawg" title="premium templates">Premium HTML web templates from $10</a></li>
-                        <li><a href="http://www.dreamhost.com/r.cgi?259541" title="web hosting">Cheap web hosting from Dreamhost</a></li>
-                        <li><a href="http://tuxthemes.com" title="Tux Themes">Premium WordPress themes</a></li>
-                    </ul>
-                </li>
-                
-            </ul>
-		
-        </aside>
 
 
-
-	<section id="content" class="three-column">
+		<section id="content" class="two-column with-right-sidebar">
 
 	    <article>
 				
@@ -161,7 +136,7 @@
 		</article>
         </section>
         
-        <aside class="sidebar small-sidebar right-sidebar">
+        <aside class="sidebar big-sidebar right-sidebar">
 	
 	
             <ul>	
@@ -171,11 +146,11 @@
                         <li><a href="index.html">Home Page</a></li>
                         <li><a href="examples.html">Style Examples</a>
 				<ul>
-					<li><a href="page.html">Static slide page</a></li>
+					<li><a class="selected" href="page.html">Static slide page</a></li>
 					<li><a href="noslides.html">No slides page</a></li>
 				</ul>
 			</li>
-                        <li><a class="selected" href="three-column.html">Three column layout example</a></li>
+                        <li><a href="three-column.html">Three column layout example</a></li>
                         <li><a href="#">Sed aliquam libero ut velit bibendum</a></li>
                         <li><a href="#">Maecenas condimentum velit vitae</a></li>
                     </ul>
@@ -193,17 +168,31 @@
 			                   Quisque hendrerit lorem sit amet dui viverra dictum. Phasellus imperdiet magna sit amet arcu tristique ultricies ut in dui.</p>
 				</li>
 
+<li>
+					<p><span class="newslist-date">May 09</span>
+			                   Mauris et felis semper, congue dui ac, iaculis ipsum. Fusce non rhoncus risus, quis luctus nisl. Donec vitae velit tincidunt, tincidunt felis eu, suscipit nibh. </p>
+ 
+				</li>
 			</ul>
                 </li>
 	
-   		
+   		<li>
+                    <h4>Maecenas varius</h4>
+                    <ul>
+				<li><a href="#">Nam cursus nisi nec viverra iaculis</a></li>
+				<li><a href="#">Integer lacinia risus id nibh vestibulum</a></li>
+				<li><a href="#">Mauris eget ante ut elit rutrum ornare </a></li>
+				<li><a href="#">Vivamus quis orci et suscipit consequa</a></li>
+				<li><a href="#">Nam eget tellus adipiscin hendrerit</a></li>
+			</ul>
+                </li>
                 
             </ul>
 		
         </aside>
     	<div class="clear"></div>
     </div>
-    <footer>
+      <footer>
          <p>&copy; YourSite 2014. <a href="http://zypopwebtemplates.com/">Free HTML5 Templates</a> by ZyPOP</p>
     </footer>
 </div>
